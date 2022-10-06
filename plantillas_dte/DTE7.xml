@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<DTE version="1.0">
+<Documento ID="DOC7">
+<Encabezado>
+<IdDoc>
+<TipoDTE>61</TipoDTE>
+<Folio>19</Folio>
+<FchEmis>2022-08-26</FchEmis>
+</IdDoc>
+<Emisor>
+<RUTEmisor>76979506-5</RUTEmisor>
+<RznSoc>ESPECIALISTAS EN MANTENIMIENTO. SPA</RznSoc>
+<GiroEmis>CONSTRUCCION DE OTRAS OBRAS DE INGENIERIA CIVIL</GiroEmis>
+<Telefono>975883420</Telefono>
+<Acteco>429000</Acteco>
+<DirOrigen>quillay 467 villa presidente rio </DirOrigen>
+<CmnaOrigen>TALCAHUANO</CmnaOrigen>
+<CiudadOrigen>CONCEPCION</CiudadOrigen>
+</Emisor>
+<Receptor>
+<RUTRecep>77813960-K</RUTRecep>
+<RznSocRecep>AMULEN CONSULTORES LTDA</RznSocRecep>
+<GiroRecep>GIRO RECEPTOR</GiroRecep>
+<DirRecep>URMENETA 305 OFICINA 513</DirRecep>
+<CmnaRecep>PUERTO MONTT</CmnaRecep>
+<CiudadRecep>PUERTO MONTT</CiudadRecep>
+</Receptor>
+<Totales>
+<MntNeto>747706</MntNeto>
+<MntExe>34944</MntExe>
+<TasaIVA>19</TasaIVA>
+<IVA>142064</IVA>
+<MntTotal>924714</MntTotal>
+</Totales>
+</Encabezado>
+<Detalle>
+<NroLinDet>1</NroLinDet>
+<CdgItem>
+<TpoCodigo>INT</TpoCodigo>
+<VlrCodigo>24</VlrCodigo>
+</CdgItem>
+<NmbItem>Pintura B&amp;W AFECTO</NmbItem>
+<DscItem>Pintura B&amp;W AFECTO</DscItem>
+<QtyItem>34</QtyItem>
+<UnmdItem>UN</UnmdItem>
+<PrcItem>4073</PrcItem>
+<MontoItem>138482</MontoItem>
+</Detalle>
+<Detalle>
+<NroLinDet>2</NroLinDet>
+<CdgItem>
+<TpoCodigo>INT</TpoCodigo>
+<VlrCodigo>23</VlrCodigo>
+</CdgItem>
+<NmbItem>ITEM 2 AFECTO</NmbItem>
+<DscItem>ITEM 2 AFECTO</DscItem>
+<QtyItem>184</QtyItem>
+<UnmdItem>UN</UnmdItem>
+<PrcItem>3311</PrcItem>
+<MontoItem>609224</MontoItem>
+</Detalle>
+<Detalle>
+<NroLinDet>3</NroLinDet>
+<CdgItem>
+<TpoCodigo>INT</TpoCodigo>
+<VlrCodigo>23</VlrCodigo>
+</CdgItem>
+<IndExe>1</IndExe>
+<NmbItem>ITEM 3 SERVICIO EXENTO</NmbItem>
+<DscItem>ITEM 3 SERVICIO EXENTO</DscItem>
+<QtyItem>1</QtyItem>
+<UnmdItem>UN</UnmdItem>
+<PrcItem>34944</PrcItem>
+<MontoItem>34944</MontoItem>
+</Detalle>
+<Referencia>
+<NroLinRef>1</NroLinRef>
+<TpoDocRef>SET</TpoDocRef>
+<FolioRef>19</FolioRef>
+<FchRef>2022-08-26</FchRef>
+<RazonRef>CASO 3354202-7</RazonRef>
+</Referencia>
+<Referencia>
+<NroLinRef>2</NroLinRef>
+<TpoDocRef>33</TpoDocRef>
+<FolioRef>44</FolioRef>
+<FchRef>2022-08-26</FchRef>
+<CodRef>1</CodRef>
+<RazonRef>ANULA FACTURA</RazonRef>
+</Referencia>
+</Documento>
+</DTE>

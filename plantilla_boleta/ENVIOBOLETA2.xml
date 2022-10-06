@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EnvioBOLETA xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xsi:schemaLocation="http://www.sii.cl/SiiDte EnvioBOLETA_v11.xsd">
+<SetDTE ID="SetDoc">
+<Caratula version="1.0">
+<RutEmisor>77454072-5</RutEmisor>
+<RutEnvia>15261254-0</RutEnvia>
+<RutReceptor>60803000-K</RutReceptor>
+<FchResol>2022-10-05</FchResol>
+<NroResol>0</NroResol>
+<TmstFirmaEnv>2022-10-05T18:54:00</TmstFirmaEnv>
+<SubTotDTE>
+<TpoDTE>39</TpoDTE>
+<NroDTE>5</NroDTE>
+</SubTotDTE>
+</Caratula>
+</SetDTE>
+</EnvioBOLETA>	

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<DTE version="1.0">
+<Documento ID="DOC2">
+<Encabezado>
+<IdDoc>
+<TipoDTE>33</TipoDTE>
+<Folio>43</Folio>
+<FchEmis>2022-08-26</FchEmis>
+</IdDoc>
+<Emisor>
+<RUTEmisor>76979506-5</RUTEmisor>
+<RznSoc>ESPECIALISTAS EN MANTENIMIENTO. SPA</RznSoc>
+<GiroEmis>CONSTRUCCION DE OTRAS OBRAS DE INGENIERIA CIVIL</GiroEmis>
+<Telefono>975883420</Telefono>
+<Acteco>429000</Acteco>
+<DirOrigen>quillay 467 villa presidente rio </DirOrigen>
+<CmnaOrigen>TALCAHUANO</CmnaOrigen>
+<CiudadOrigen>CONCEPCION</CiudadOrigen>
+</Emisor>
+<Receptor>
+<RUTRecep>77813960-K</RUTRecep>
+<RznSocRecep>AMULEN CONSULTORES LTDA</RznSocRecep>
+<GiroRecep>GIRO RECEPTOR</GiroRecep>
+<DirRecep>URMENETA 305 OFICINA 513</DirRecep>
+<CmnaRecep>PUERTO MONTT</CmnaRecep>
+<CiudadRecep>PUERTO MONTT</CiudadRecep>
+</Receptor>
+<Totales>
+<MntNeto>2358387</MntNeto>
+<TasaIVA>19</TasaIVA>
+<IVA>448094</IVA>
+<MntTotal>2806481</MntTotal>
+</Totales>
+</Encabezado>
+<Detalle>
+<NroLinDet>1</NroLinDet>
+<CdgItem>
+<TpoCodigo>INT</TpoCodigo>
+<VlrCodigo>22</VlrCodigo>
+</CdgItem>
+<NmbItem>Pañuelo AFECTO</NmbItem>
+<DscItem>Pañuelo AFECTO</DscItem>
+<QtyItem>448</QtyItem>
+<UnmdItem>UN</UnmdItem>
+<PrcItem>3532</PrcItem>
+<DescuentoPct>6</DescuentoPct>
+<DescuentoMonto>94940</DescuentoMonto>
+<MontoItem>1487396</MontoItem>
+</Detalle>
+<Detalle>
+<NroLinDet>2</NroLinDet>
+<CdgItem>
+<TpoCodigo>INT</TpoCodigo>
+<VlrCodigo>23</VlrCodigo>
+</CdgItem>
+<NmbItem>ITEM 2 AFECTO</NmbItem>
+<DscItem>ITEM 2 AFECTO</DscItem>
+<QtyItem>382</QtyItem>
+<UnmdItem>UN</UnmdItem>
+<PrcItem>2591</PrcItem>
+<DescuentoPct>12</DescuentoPct>
+<DescuentoMonto>118771</DescuentoMonto>
+<MontoItem>870991</MontoItem>
+</Detalle>
+<Referencia>
+<NroLinRef>1</NroLinRef>
+<TpoDocRef>SET</TpoDocRef>
+<FolioRef>43</FolioRef>
+<FchRef>2022-08-26</FchRef>
+<RazonRef>CASO 3354202-2</RazonRef>
+</Referencia>
+ </Documento>
+</DTE>

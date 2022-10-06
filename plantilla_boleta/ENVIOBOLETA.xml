@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?><EnvioBOLETA xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xsi:schemaLocation="http://www.sii.cl/SiiDte EnvioBOLETA_v11.xsd">
+<SetDTE ID="SetDoc">
+<Caratula version="1.0">
+<RutEmisor>77454072-5</RutEmisor>
+<RutEnvia>15261254-0</RutEnvia>
+<RutReceptor>60803000-K</RutReceptor>
+<FchResol>2022-10-05</FchResol>
+<NroResol>0</NroResol>
+<TmstFirmaEnv>2022-10-05T18:54:00</TmstFirmaEnv>
+<SubTotDTE>
+<TpoDTE>39</TpoDTE>
+<NroDTE>5</NroDTE>
+</SubTotDTE>
+</Caratula>
+<DTE version="1.0">
+<Documento ID="DOC1">
+<Encabezado>
+<IdDoc>
+<TipoDTE>39</TipoDTE>
+<Folio>1</Folio>
+<FchEmis>2022-10-05</FchEmis>
+<IndServicio>3</IndServicio>
+</IdDoc>
+<Emisor>
+<RUTEmisor>77454072-5</RUTEmisor>
+<RznSocEmisor>FERRETERIA BAQUEDANO SPA</RznSocEmisor>
+<GiroEmisor>FERRETERIA</GiroEmisor>
+<CdgSIISucur>1</CdgSIISucur>
+<DirOrigen>MONJITAS 550 DP 19</DirOrigen>
+<CmnaOrigen>SANTIAGO</CmnaOrigen>
+<CiudadOrigen>SANTIAGO</CiudadOrigen>
+</Emisor>
+   <Receptor>
+    <RUTRecep>13968481-8</RUTRecep>
+    <RznSocRecep>ESTEBAN GUENUL ALMONACID</RznSocRecep>
+   </Receptor>
+   <Totales>
+    <MntNeto>25042</MntNeto>
+    <IVA>4758</IVA>
+    <MntTotal>29800</MntTotal>
+   </Totales>
+  </Encabezado>
+    <Detalle>
+   <NroLinDet>1</NroLinDet>
+   <CdgItem>
+    <TpoCodigo>INT</TpoCodigo>
+    <VlrCodigo>1</VlrCodigo>
+   </CdgItem>
+   <NmbItem>Cambio de aceite</NmbItem>
+   <DscItem>Cambio de aceite</DscItem>
+   <QtyItem>1</QtyItem>
+   <PrcItem>19900</PrcItem>
+   <MontoItem>19900</MontoItem>
+  </Detalle>
+  <Detalle>
+   <NroLinDet>2</NroLinDet>
+   <CdgItem>
+    <TpoCodigo>INT</TpoCodigo>
+    <VlrCodigo>2</VlrCodigo>
+   </CdgItem>
+   <NmbItem>Alineacion y balanceo</NmbItem>
+   <DscItem>Alineacion y balanceo</DscItem>
+   <QtyItem>1</QtyItem>
+   <PrcItem>9900</PrcItem>
+   <MontoItem>9900</MontoItem>
+  </Detalle>
+  <Referencia>
+   <NroLinRef>1</NroLinRef>
+   <CodRef>SET</CodRef>
+   <RazonRef>CASO-1</RazonRef>
+  </Referencia>
+ <TED version="1.0"><DD><RE>77454072-5</RE><TD>39</TD><F>1</F><FE>2022-10-05</FE><RR>13968481-8</RR><RSR>ESTEBAN GUENUL ALMONACID</RSR><MNT>29800</MNT><IT1>Cambio de aceite</IT1><CAF version="1.0"><DA><RE>77454072-5</RE><RS>FERRETERIA BAQUEDANO SPA</RS><TD>39</TD><RNG><D>1</D><H>1000</H></RNG><FA>2022-10-05</FA><RSAPK><M>0bRTBOAHgBJlmt62CALWRww7ZudGiCY4I5H6gM4Jdv8q0X5zFPZzZwQtDxA4U7xU1A9X/wqokUyV5RPmPm1zDQ==</M><E>Aw==</E></RSAPK><IDK>300</IDK></DA><FRMA algoritmo="SHA1withRSA">DVBiy7p5de5s88lBY/unZvWmioHxNF57qFNnlkFxberZUPKkoDgmcpn50FvvBxsWgPzToNqKvjqds9Wn1ltr7A==</FRMA></CAF><TSTED>2022-10-06T11:48:50</TSTED></DD><FRMT algoritmo="SHA1withRSA">qdziRmsA5DVr/ynVzW1aDbsMzcyokJICpcgyR0isdak4DWeTaPIx+sAX//AfZQ6I8lzCTWxcjZCfPHVsauab3A==</FRMT></TED><TmstFirma>2022-10-06T11:48:50</TmstFirma></Documento>
+ </DTE><DTE version="1.0">
+ <Documento ID="DOC2">
+  <Encabezado>
+   <IdDoc>
+    <TipoDTE>39</TipoDTE>
+    <Folio>2</Folio>
+    <FchEmis>2022-10-05</FchEmis>
+    <IndServicio>3</IndServicio>
+   </IdDoc>
+<Emisor>
+<RUTEmisor>77454072-5</RUTEmisor>
+<RznSocEmisor>FERRETERIA BAQUEDANO SPA</RznSocEmisor>
+<GiroEmisor>FERRETERIA</GiroEmisor>
+<CdgSIISucur>1</CdgSIISucur>
+<DirOrigen>MONJITAS 550 DP 19</DirOrigen>
+<CmnaOrigen>SANTIAGO</CmnaOrigen>
+<CiudadOrigen>SANTIAGO</CiudadOrigen>
+</Emisor>
+   <Receptor>
+    <RUTRecep>7485497-4</RUTRecep>
+    <RznSocRecep>OMAR GUENUL VELASQUEZ</RznSocRecep>
+   </Receptor>
+   <Totales>
+     <MntNeto>1714</MntNeto>
+     <IVA>326</IVA>
+    <MntTotal>2040</MntTotal>
+   </Totales>
+  </Encabezado>
+   <Detalle>
+   <NroLinDet>1</NroLinDet>
+   <CdgItem>
+    <TpoCodigo>INT</TpoCodigo>
+    <VlrCodigo>3</VlrCodigo>
+   </CdgItem>
+   <NmbItem>Papel de regalo</NmbItem>
+   <DscItem>Papel de regalo</DscItem>
+   <QtyItem>17</QtyItem>
+   <PrcItem>120</PrcItem>
+   <MontoItem>2040</MontoItem>
+  </Detalle>
+   <Referencia>
+   <NroLinRef>1</NroLinRef>
+   <CodRef>SET</CodRef>
+   <RazonRef>CASO-2</RazonRef>
+  </Referencia>
+  <TED version="1.0"><DD><RE>77454072-5</RE><TD>39</TD><F>2</F><FE>2022-10-05</FE><RR>7485497-4</RR><RSR>OMAR GUENUL VELASQUEZ</RSR><MNT>2040</MNT><IT1>Papel de regalo</IT1><CAF version="1.0"><DA><RE>77454072-5</RE><RS>FERRETERIA BAQUEDANO SPA</RS><TD>39</TD><RNG><D>1</D><H>1000</H></RNG><FA>2022-10-05</FA><RSAPK><M>0bRTBOAHgBJlmt62CALWRww7ZudGiCY4I5H6gM4Jdv8q0X5zFPZzZwQtDxA4U7xU1A9X/wqokUyV5RPmPm1zDQ==</M><E>Aw==</E></RSAPK><IDK>300</IDK></DA><FRMA algoritmo="SHA1withRSA">DVBiy7p5de5s88lBY/unZvWmioHxNF57qFNnlkFxberZUPKkoDgmcpn50FvvBxsWgPzToNqKvjqds9Wn1ltr7A==</FRMA></CAF><TSTED>2022-10-06T11:48:50</TSTED></DD><FRMT algoritmo="SHA1withRSA">Nxo9ftAQqkJKMjtj2FkVNuH51bVm10PHbGgIRRjGvXTyjQAYQfrWFeXfALaKnXFgPQNAWJPzaNGJ5DtCpHarcA==</FRMT></TED><TmstFirma>2022-10-06T11:48:50</TmstFirma></Documento>
+  </DTE><DTE version="1.0">
+ <Documento ID="DOC3">
+  <Encabezado>
+   <IdDoc>
+    <TipoDTE>39</TipoDTE>
+    <Folio>3</Folio>
+    <FchEmis>2022-10-05</FchEmis>
+    <IndServicio>3</IndServicio>
+   </IdDoc>
+<Emisor>
+<RUTEmisor>77454072-5</RUTEmisor>
+<RznSocEmisor>FERRETERIA BAQUEDANO SPA</RznSocEmisor>
+<GiroEmisor>FERRETERIA</GiroEmisor>
+<CdgSIISucur>1</CdgSIISucur>
+<DirOrigen>MONJITAS 550 DP 19</DirOrigen>
+<CmnaOrigen>SANTIAGO</CmnaOrigen>
+<CiudadOrigen>SANTIAGO</CiudadOrigen>
+</Emisor>
+   <Receptor>
+    <RUTRecep>7485497-4</RUTRecep>
+    <RznSocRecep>OMAR GUENUL VELASQUEZ</RznSocRecep>
+   </Receptor>
+   <Totales>
+    <MntNeto>3445</MntNeto>
+     <IVA>655</IVA>
+    <MntTotal>4100</MntTotal>
+   </Totales>
+  </Encabezado>
+    <Detalle>
+   <NroLinDet>1</NroLinDet>
+   <CdgItem>
+    <TpoCodigo>INT</TpoCodigo>
+    <VlrCodigo>4</VlrCodigo>
+   </CdgItem>
+   <NmbItem>Sandwic</NmbItem>
+   <DscItem>Sandwic</DscItem>
+   <QtyItem>2</QtyItem>
+   <PrcItem>1500</PrcItem>
+   <MontoItem>3000</MontoItem>
+  </Detalle>
+  <Detalle>
+   <NroLinDet>2</NroLinDet>
+   <CdgItem>
+    <TpoCodigo>INT</TpoCodigo>
+    <VlrCodigo>5</VlrCodigo>
+   </CdgItem>
+   <NmbItem>Bebida</NmbItem>
+   <DscItem>Bebida</DscItem>
+   <QtyItem>2</QtyItem>
+   <PrcItem>550</PrcItem>
+   <MontoItem>1100</MontoItem>
+  </Detalle>
+ <Referencia>
+   <NroLinRef>1</NroLinRef>
+   <CodRef>SET</CodRef>
+   <RazonRef>CASO-3</RazonRef>
+  </Referencia>
+ <TED version="1.0"><DD><RE>77454072-5</RE><TD>39</TD><F>3</F><FE>2022-10-05</FE><RR>7485497-4</RR><RSR>OMAR GUENUL VELASQUEZ</RSR><MNT>4100</MNT><IT1>Sandwic</IT1><CAF version="1.0"><DA><RE>77454072-5</RE><RS>FERRETERIA BAQUEDANO SPA</RS><TD>39</TD><RNG><D>1</D><H>1000</H></RNG><FA>2022-10-05</FA><RSAPK><M>0bRTBOAHgBJlmt62CALWRww7ZudGiCY4I5H6gM4Jdv8q0X5zFPZzZwQtDxA4U7xU1A9X/wqokUyV5RPmPm1zDQ==</M><E>Aw==</E></RSAPK><IDK>300</IDK></DA><FRMA algoritmo="SHA1withRSA">DVBiy7p5de5s88lBY/unZvWmioHxNF57qFNnlkFxberZUPKkoDgmcpn50FvvBxsWgPzToNqKvjqds9Wn1ltr7A==</FRMA></CAF><TSTED>2022-10-06T11:48:50</TSTED></DD><FRMT algoritmo="SHA1withRSA">tr7lDRjS+d3Yhj3MfYnO0WLH7XXQWLV09pDUVsy8Z9kZ6G06sS4huFkL6z36c1HlzTeFQ/+g+t9tQm2vN21SMQ==</FRMT></TED><TmstFirma>2022-10-06T11:48:50</TmstFirma></Documento>
+ </DTE><DTE version="1.0">
+ <Documento ID="DOC4">
+  <Encabezado>
+   <IdDoc>
+    <TipoDTE>39</TipoDTE>
+    <Folio>4</Folio>
+    <FchEmis>2022-10-05</FchEmis>
+    <IndServicio>3</IndServicio>
+   </IdDoc>
+<Emisor>
+<RUTEmisor>77454072-5</RUTEmisor>
+<RznSocEmisor>FERRETERIA BAQUEDANO SPA</RznSocEmisor>
+<GiroEmisor>FERRETERIA</GiroEmisor>	
+<CdgSIISucur>1</CdgSIISucur>
+<DirOrigen>MONJITAS 550 DP 19</DirOrigen>
+<CmnaOrigen>SANTIAGO</CmnaOrigen>
+<CiudadOrigen>SANTIAGO</CiudadOrigen>
+</Emisor>
+   <Receptor>
+    <RUTRecep>7485497-4</RUTRecep>
+    <RznSocRecep>OMAR GUENUL VELASQUEZ</RznSocRecep>
+   </Receptor>
+   <Totales>
+    <MntNeto>10689</MntNeto>
+    <MntExe>2000</MntExe>
+    <IVA>2031</IVA>
+    <MntTotal>14720</MntTotal>
+   </Totales>
+  </Encabezado>
+    <Detalle>
+   <NroLinDet>1</NroLinDet>
+   <CdgItem>
+    <TpoCodigo>INT</TpoCodigo>
+    <VlrCodigo>6</VlrCodigo>
+   </CdgItem>
+   <NmbItem>item afecto 1</NmbItem>
+   <DscItem>item afecto 1</DscItem>
+   <QtyItem>8</QtyItem>
+   <PrcItem>1590</PrcItem>
+   <MontoItem>12720</MontoItem>
+  </Detalle>
+  <Detalle>
+   <NroLinDet>2</NroLinDet>
+   <CdgItem>
+    <TpoCodigo>INT</TpoCodigo>
+    <VlrCodigo>7</VlrCodigo>
+   </CdgItem>
+   <IndExe>1</IndExe>
+   <NmbItem>item exento 2</NmbItem>
+   <DscItem>item exento 2</DscItem>
+   <QtyItem>2</QtyItem>
+   <PrcItem>1000</PrcItem>
+   <MontoItem>2000</MontoItem>
+  </Detalle>
+  <Referencia>
+  <NroLinRef>1</NroLinRef>
+  <CodRef>SET</CodRef>
+  <RazonRef>CASO-4</RazonRef>
+</Referencia>
+<TED version="1.0"><DD><RE>77454072-5</RE><TD>39</TD><F>4</F><FE>2022-10-05</FE><RR>7485497-4</RR><RSR>OMAR GUENUL VELASQUEZ</RSR><MNT>14720</MNT><IT1>item afecto 1</IT1><CAF version="1.0"><DA><RE>77454072-5</RE><RS>FERRETERIA BAQUEDANO SPA</RS><TD>39</TD><RNG><D>1</D><H>1000</H></RNG><FA>2022-10-05</FA><RSAPK><M>0bRTBOAHgBJlmt62CALWRww7ZudGiCY4I5H6gM4Jdv8q0X5zFPZzZwQtDxA4U7xU1A9X/wqokUyV5RPmPm1zDQ==</M><E>Aw==</E></RSAPK><IDK>300</IDK></DA><FRMA algoritmo="SHA1withRSA">DVBiy7p5de5s88lBY/unZvWmioHxNF57qFNnlkFxberZUPKkoDgmcpn50FvvBxsWgPzToNqKvjqds9Wn1ltr7A==</FRMA></CAF><TSTED>2022-10-06T11:48:50</TSTED></DD><FRMT algoritmo="SHA1withRSA">YcSqfdKgye9NMnnLuFPj4SiRw7ZWQDtzoFYieJgWygBOasxSt0rYYF07svIgUUyzHcxTzDOg//rH5QVSm4SQ2w==</FRMT></TED><TmstFirma>2022-10-06T11:48:50</TmstFirma></Documento>
+</DTE><DTE version="1.0">
+<Documento ID="DOC5">
+<Encabezado>
+<IdDoc>
+<TipoDTE>39</TipoDTE>
+<Folio>5</Folio>
+<FchEmis>2022-10-05</FchEmis>
+<IndServicio>3</IndServicio>
+</IdDoc>
+<Emisor>
+<RUTEmisor>77454072-5</RUTEmisor>
+<RznSocEmisor>FERRETERIA BAQUEDANO SPA</RznSocEmisor>
+<GiroEmisor>FERRETERIA</GiroEmisor>	
+<CdgSIISucur>1</CdgSIISucur>
+<DirOrigen>MONJITAS 550 DP 19</DirOrigen>
+<CmnaOrigen>SANTIAGO</CmnaOrigen>
+<CiudadOrigen>SANTIAGO</CiudadOrigen>
+</Emisor>
+<Receptor>
+    <RUTRecep>13968481-8</RUTRecep>
+    <RznSocRecep>ESTEBAN GUENUL ALMONACID</RznSocRecep>
+   </Receptor>
+   <Totales>
+    <MntNeto>2941</MntNeto>
+    <IVA>559</IVA>
+    <MntTotal>3500</MntTotal>
+   </Totales>
+  </Encabezado>
+    <Detalle>
+   <NroLinDet>1</NroLinDet>
+   <CdgItem>
+    <TpoCodigo>INT</TpoCodigo>
+    <VlrCodigo>8</VlrCodigo>
+   </CdgItem>
+   <NmbItem>Arroz</NmbItem>
+   <DscItem>Arroz</DscItem>
+   <QtyItem>5</QtyItem>
+   <UnmdItem>Kg</UnmdItem>
+   <PrcItem>700</PrcItem>
+   <MontoItem>3500</MontoItem>
+  </Detalle>
+   <Referencia>
+   <NroLinRef>1</NroLinRef>
+   <CodRef>SET</CodRef>
+   <RazonRef>CASO-5</RazonRef>
+   </Referencia>
+   <TED version="1.0"><DD><RE>77454072-5</RE><TD>39</TD><F>5</F><FE>2022-10-05</FE><RR>13968481-8</RR><RSR>ESTEBAN GUENUL ALMONACID</RSR><MNT>3500</MNT><IT1>Arroz</IT1><CAF version="1.0"><DA><RE>77454072-5</RE><RS>FERRETERIA BAQUEDANO SPA</RS><TD>39</TD><RNG><D>1</D><H>1000</H></RNG><FA>2022-10-05</FA><RSAPK><M>0bRTBOAHgBJlmt62CALWRww7ZudGiCY4I5H6gM4Jdv8q0X5zFPZzZwQtDxA4U7xU1A9X/wqokUyV5RPmPm1zDQ==</M><E>Aw==</E></RSAPK><IDK>300</IDK></DA><FRMA algoritmo="SHA1withRSA">DVBiy7p5de5s88lBY/unZvWmioHxNF57qFNnlkFxberZUPKkoDgmcpn50FvvBxsWgPzToNqKvjqds9Wn1ltr7A==</FRMA></CAF><TSTED>2022-10-06T11:48:50</TSTED></DD><FRMT algoritmo="SHA1withRSA">vxVOA0t0LYBtLsf35/iaYcapqYiq3K8ahvIRwlVY5NRF6lWgUrIOmY6RV317MbHlLry+j89eFxjqwbY4Q/mgbw==</FRMT></TED><TmstFirma>2022-10-06T11:48:50</TmstFirma></Documento>
+   </DTE></SetDTE>	
+</EnvioBOLETA>

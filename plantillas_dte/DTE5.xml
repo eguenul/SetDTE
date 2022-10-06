@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<DTE version="1.0">
+<Documento ID="DOC5">
+<Encabezado>
+<IdDoc>
+<TipoDTE>61</TipoDTE>
+<Folio>17</Folio>
+<FchEmis>2022-08-26</FchEmis>
+</IdDoc>
+<Emisor>
+<RUTEmisor>76979506-5</RUTEmisor>
+<RznSoc>ESPECIALISTAS EN MANTENIMIENTO. SPA</RznSoc>
+<GiroEmis>CONSTRUCCION DE OTRAS OBRAS DE INGENIERIA CIVIL</GiroEmis>
+<Telefono>975883420</Telefono>
+<Acteco>429000</Acteco>
+<DirOrigen>quillay 467 villa presidente rio </DirOrigen>
+<CmnaOrigen>TALCAHUANO</CmnaOrigen>
+<CiudadOrigen>CONCEPCION</CiudadOrigen>
+</Emisor>
+<Receptor>
+<RUTRecep>77813960-K</RUTRecep>
+<RznSocRecep>AMULEN CONSULTORES LTDA</RznSocRecep>
+<GiroRecep>GIRO RECEPTOR</GiroRecep>
+<DirRecep>URMENETA 305 OFICINA 513</DirRecep>
+<CmnaRecep>PUERTO MONTT</CmnaRecep>
+<CiudadRecep>PUERTO MONTT</CiudadRecep>
+</Receptor>
+<Totales>
+<MntTotal>0</MntTotal>
+</Totales>
+</Encabezado>
+<Detalle>
+<NroLinDet>1</NroLinDet>
+<NmbItem>CORRECCION DATO</NmbItem>
+<MontoItem>0</MontoItem>
+</Detalle>
+<Referencia>
+<NroLinRef>1</NroLinRef>
+<TpoDocRef>SET</TpoDocRef>
+<FolioRef>17</FolioRef>
+<FchRef>2012-03-26</FchRef>
+<RazonRef>CASO 3354202-5</RazonRef>
+</Referencia>
+<Referencia>
+<NroLinRef>2</NroLinRef>
+<TpoDocRef>33</TpoDocRef>
+<FolioRef>42</FolioRef>
+<FchRef>2022-08-26</FchRef>
+<CodRef>2</CodRef>
+<RazonRef>CORRIGE GIRO DEL RECEPTOR</RazonRef>
+</Referencia>
+ </Documento>
+</DTE>

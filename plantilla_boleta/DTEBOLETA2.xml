@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE version="1.0">
+ <Documento ID="DOC2">
+  <Encabezado>
+   <IdDoc>
+    <TipoDTE>39</TipoDTE>
+    <Folio>2</Folio>
+    <FchEmis>2022-09-13</FchEmis>
+    <IndServicio>3</IndServicio>
+   </IdDoc>
+<Emisor>
+<RUTEmisor>77499104-2</RUTEmisor>
+<RznSocEmisor>COMERCIAL KUKO?S SPA </RznSocEmisor>
+<GiroEmisor>PRODUCTOS DE BELLEZA</GiroEmisor>
+<CdgSIISucur>1</CdgSIISucur>
+<DirOrigen>MONJITAS 550 DP 19</DirOrigen>
+<CmnaOrigen>SANTIAGO</CmnaOrigen>
+<CiudadOrigen>SANTIAGO</CiudadOrigen>
+</Emisor>
+   <Receptor>
+    <RUTRecep>7485497-4</RUTRecep>
+    <RznSocRecep>OMAR GUENUL VELASQUEZ</RznSocRecep>
+   </Receptor>
+   <Totales>
+     <MntNeto>1714</MntNeto>
+     <IVA>326</IVA>
+    <MntTotal>2040</MntTotal>
+   </Totales>
+  </Encabezado>
+   <Detalle>
+   <NroLinDet>1</NroLinDet>
+   <CdgItem>
+    <TpoCodigo>INT</TpoCodigo>
+    <VlrCodigo>3</VlrCodigo>
+   </CdgItem>
+   <NmbItem>Papel de regalo</NmbItem>
+   <DscItem>Papel de regalo</DscItem>
+   <QtyItem>17</QtyItem>
+   <PrcItem>120</PrcItem>
+   <MontoItem>2040</MontoItem>
+  </Detalle>
+   <Referencia>
+   <NroLinRef>1</NroLinRef>
+   <CodRef>SET</CodRef>
+   <RazonRef>CASO-2</RazonRef>
+  </Referencia>
+  </Documento>
+  </DTE>

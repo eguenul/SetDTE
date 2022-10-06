@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<DTE version="1.0">
+<Documento ID="DOC6">
+<Encabezado>
+<IdDoc>
+<TipoDTE>61</TipoDTE>
+<Folio>18</Folio>
+<FchEmis>2022-08-26</FchEmis>
+</IdDoc>
+<Emisor>
+<RUTEmisor>76979506-5</RUTEmisor>
+<RznSoc>ESPECIALISTAS EN MANTENIMIENTO. SPA</RznSoc>
+<GiroEmis>CONSTRUCCION DE OTRAS OBRAS DE INGENIERIA CIVIL</GiroEmis>
+<Telefono>975883420</Telefono>
+<Acteco>429000</Acteco>
+<DirOrigen>quillay 467 villa presidente rio </DirOrigen>
+<CmnaOrigen>TALCAHUANO</CmnaOrigen>
+<CiudadOrigen>CONCEPCION</CiudadOrigen>
+</Emisor>
+<Receptor>
+<RUTRecep>77813960-K</RUTRecep>
+<RznSocRecep>AMULEN CONSULTORES LTDA</RznSocRecep>
+<GiroRecep>GIRO RECEPTOR</GiroRecep>
+<DirRecep>URMENETA 305 OFICINA 513</DirRecep>
+<CmnaRecep>PUERTO MONTT</CmnaRecep>
+<CiudadRecep>PUERTO MONTT</CiudadRecep>
+</Receptor>
+<Totales>
+<MntNeto>1135034</MntNeto>
+<TasaIVA>19</TasaIVA>
+<IVA>215656</IVA>
+<MntTotal>1350690</MntTotal>
+</Totales>
+</Encabezado>
+<Detalle>
+<NroLinDet>1</NroLinDet>
+<CdgItem>
+<TpoCodigo>INT</TpoCodigo>
+<VlrCodigo>22</VlrCodigo>
+</CdgItem>
+<NmbItem>Pañuelo AFECTO</NmbItem>
+<DscItem>Paridad 1.0</DscItem>
+<QtyItem>164</QtyItem>
+<UnmdItem>UN</UnmdItem>
+<PrcItem>3532</PrcItem>
+<DescuentoPct>6.0</DescuentoPct>
+<DescuentoMonto>34755</DescuentoMonto>
+<MontoItem>544493</MontoItem>
+</Detalle>
+<Detalle>
+<NroLinDet>2</NroLinDet>
+<CdgItem>
+<TpoCodigo>INT</TpoCodigo>
+<VlrCodigo>23</VlrCodigo>
+</CdgItem>
+<NmbItem>ITEM 2 AFECTO</NmbItem>
+<DscItem>Paridad 1.0</DscItem>
+<QtyItem>259</QtyItem>
+<UnmdItem>UN</UnmdItem>
+<PrcItem>2591</PrcItem>
+<DescuentoPct>12</DescuentoPct>
+<DescuentoMonto>80528</DescuentoMonto>
+<MontoItem>590541</MontoItem>
+</Detalle>
+<Referencia>
+<NroLinRef>1</NroLinRef>
+<TpoDocRef>SET</TpoDocRef>
+<FolioRef>18</FolioRef>
+<FchRef>2022-08-26</FchRef>
+<RazonRef>CASO 3354202-6</RazonRef>
+</Referencia>
+<Referencia>
+<NroLinRef>2</NroLinRef>
+<TpoDocRef>33</TpoDocRef>
+<FolioRef>43</FolioRef>
+<FchRef>2022-08-26</FchRef>
+<CodRef>3</CodRef>
+<RazonRef>DEVOLUCION DE MERCADERIAS</RazonRef>
+</Referencia>
+</Documento>
+</DTE>

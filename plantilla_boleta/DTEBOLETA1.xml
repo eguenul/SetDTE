@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE version="1.0">
+<Documento ID="DOC1">
+<Encabezado>
+<IdDoc>
+<TipoDTE>39</TipoDTE>
+<Folio>1</Folio>
+<FchEmis>2022-09-13</FchEmis>
+<IndServicio>3</IndServicio>
+</IdDoc>
+<Emisor>
+<RUTEmisor>77499104-2</RUTEmisor>
+<RznSocEmisor>COMERCIAL KUKO?S SPA </RznSocEmisor>
+<GiroEmisor>PRODUCTOS DE BELLEZA</GiroEmisor>
+<CdgSIISucur>1</CdgSIISucur>
+<DirOrigen>MONJITAS 550 DP 19</DirOrigen>
+<CmnaOrigen>SANTIAGO</CmnaOrigen>
+<CiudadOrigen>SANTIAGO</CiudadOrigen>
+</Emisor>
+   <Receptor>
+    <RUTRecep>13968481-8</RUTRecep>
+    <RznSocRecep>ESTEBAN GUENUL ALMONACID</RznSocRecep>
+   </Receptor>
+   <Totales>
+    <MntNeto>25042</MntNeto>
+    <IVA>4758</IVA>
+    <MntTotal>29800</MntTotal>
+   </Totales>
+  </Encabezado>
+    <Detalle>
+   <NroLinDet>1</NroLinDet>
+   <CdgItem>
+    <TpoCodigo>INT</TpoCodigo>
+    <VlrCodigo>1</VlrCodigo>
+   </CdgItem>
+   <NmbItem>Cambio de aceite</NmbItem>
+   <DscItem>Cambio de aceite</DscItem>
+   <QtyItem>1</QtyItem>
+   <PrcItem>19900</PrcItem>
+   <MontoItem>19900</MontoItem>
+  </Detalle>
+  <Detalle>
+   <NroLinDet>2</NroLinDet>
+   <CdgItem>
+    <TpoCodigo>INT</TpoCodigo>
+    <VlrCodigo>2</VlrCodigo>
+   </CdgItem>
+   <NmbItem>Alineacion y balanceo</NmbItem>
+   <DscItem>Alineacion y balanceo</DscItem>
+   <QtyItem>1</QtyItem>
+   <PrcItem>9900</PrcItem>
+   <MontoItem>9900</MontoItem>
+  </Detalle>
+  <Referencia>
+   <NroLinRef>1</NroLinRef>
+   <CodRef>SET</CodRef>
+   <RazonRef>CASO-1</RazonRef>
+  </Referencia>
+ </Documento>
+ </DTE>

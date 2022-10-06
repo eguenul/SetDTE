@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<DTE version="1.0">
+<Documento ID="DOC4">
+<Encabezado>
+<IdDoc>
+<TipoDTE>33</TipoDTE>
+<Folio>45</Folio>
+<FchEmis>2022-08-26</FchEmis>
+</IdDoc>
+<Emisor>
+<RUTEmisor>76979506-5</RUTEmisor>
+<RznSoc>ESPECIALISTAS EN MANTENIMIENTO. SPA</RznSoc>
+<GiroEmis>CONSTRUCCION DE OTRAS OBRAS DE INGENIERIA CIVIL</GiroEmis>
+<Telefono>975883420</Telefono>
+<Acteco>429000</Acteco>
+<DirOrigen>quillay 467 villa presidente rio </DirOrigen>
+<CmnaOrigen>TALCAHUANO</CmnaOrigen>
+<CiudadOrigen>CONCEPCION</CiudadOrigen>
+</Emisor>
+<Receptor>
+<RUTRecep>77813960-K</RUTRecep>
+<RznSocRecep>AMULEN CONSULTORES LTDA</RznSocRecep>
+<GiroRecep>GIRO RECEPTOR</GiroRecep>
+<DirRecep>URMENETA 305 OFICINA 513</DirRecep>
+<CmnaRecep>PUERTO MONTT</CmnaRecep>
+<CiudadRecep>PUERTO MONTT</CiudadRecep>
+</Receptor>
+<Totales>
+<MntNeto>943157</MntNeto>
+<MntExe>13588</MntExe>
+<TasaIVA>19</TasaIVA>
+<IVA>179200</IVA>
+<MntTotal>1135945</MntTotal>
+</Totales>
+</Encabezado>
+<Detalle>
+<NroLinDet>1</NroLinDet>
+<CdgItem>
+<TpoCodigo>INT</TpoCodigo>
+<VlrCodigo>26</VlrCodigo>
+</CdgItem>
+<NmbItem>ITEM 1 AFECTO</NmbItem>
+<DscItem>ITEM 1 AFECTO</DscItem>
+<QtyItem>217</QtyItem>
+<UnmdItem>UN</UnmdItem>
+<PrcItem>3400</PrcItem>
+<MontoItem>737800</MontoItem>
+</Detalle>
+<Detalle>
+<NroLinDet>2</NroLinDet>
+<CdgItem>
+<TpoCodigo>INT</TpoCodigo>
+<VlrCodigo>23</VlrCodigo>
+</CdgItem>
+<NmbItem>ITEM 2 AFECTO</NmbItem>
+<DscItem>ITEM 2 AFECTO</DscItem>
+<QtyItem>92</QtyItem>
+<UnmdItem>UN</UnmdItem>
+<PrcItem>3764</PrcItem>
+<MontoItem>346288</MontoItem>
+</Detalle>
+<Detalle>
+<NroLinDet>3</NroLinDet>
+<CdgItem>
+<TpoCodigo>INT</TpoCodigo>
+<VlrCodigo>25</VlrCodigo>
+</CdgItem>
+<IndExe>1</IndExe>
+<NmbItem>ITEM 3 SERVICIO EXENTO</NmbItem>
+<DscItem>ITEM 3 SERVICIO EXENTO</DscItem>
+<QtyItem>2</QtyItem>
+<UnmdItem>UN</UnmdItem>
+<PrcItem>6794</PrcItem>
+<MontoItem>13588</MontoItem>
+</Detalle>
+<DscRcgGlobal>
+<NroLinDR>1</NroLinDR>
+<TpoMov>D</TpoMov>
+<GlosaDR>Porcentaje Variable</GlosaDR>
+<TpoValor>%</TpoValor>
+<ValorDR>13</ValorDR>
+</DscRcgGlobal>
+<Referencia>
+<NroLinRef>1</NroLinRef>
+<TpoDocRef>SET</TpoDocRef>
+<FolioRef>45</FolioRef>
+<FchRef>2022-08-26</FchRef>
+<RazonRef>CASO 3354202-4</RazonRef> 
+</Referencia>
+ </Documento>
+</DTE>

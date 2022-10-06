@@ -1,0 +1,77 @@
+1 GENERACION DE TIMBRE DTE
+
+java -cp SetSimulacion.jar setsimulacion.TimbreDTE DTEBOLETA 1 5 77454072-5
+
+
+2 FIRMA DE SET (USAR CERTIFICADO DIGITAL)
+
+/*
+        String nombre_dte = args[0];
+        String rango_inicio = args[1];
+        String rango_final = args[2];
+        String nombre_certificado = args[3];
+        String clave = args[4];
+*/
+
+
+Ejemplo:
+java -cp SetSimulacion.jar setsimulacion.FirmaSet DTEBOLETA 1 5 fbaquedano 1982
+
+3 COLOCAR DOCUMENTOS EN EL ENVIO
+
+/*
+String nombredte = args[0];
+String rango_inicio = args[1];
+String rango_final = args[2];
+String archivo_destino = args[3];
+*/
+
+java -cp SetSimulacion.jar setsimulacion.addDTEENVIO DTEBOLETA 1 5 ENVIOBOLETA
+
+
+4 FIRMAR ENVIO (USAR CERTIFICADO DIGITAL)
+
+/*
+   String nombre_dte = args[0];
+   String nombre_certificado = args[1];
+   String clave = args[2];
+
+*/
+ java -cp SetSimulacion.jar setsimulacion.FirmaEnvio ENVIOBOLETA fbaquedano 1982
+
+
+5 FIRMAR RCOF (REGISTRO DE CONSUMO DE FOLIOS)
+/*
+      String nombre_archivo = args[0];
+       String nombre_certificado = args[1];
+       String clave = args[2];
+       String attr_id = args[3];
+
+*/
+java -cp SetSimulacion.jar setsimulacion.SignRCOF rcof fbaquedano 1982 RCOF_01
+
+6 FIRMAR XML (PARA FIRMAR XML COMO LIBRO DE COMPRAS/VENTAS Y OTROS ARCHIVOS)
+   /*
+       String nombre_archivo = args[0];
+       String nombre_certificado = args[1];
+       String clave = args[2];
+       String attr_id = args[3];
+       String nodo_xml
+    */
+
+java -cp SetSimulacion.jar setsimulacion.signXML ARCHIVO.xml fbaquedano 1982 ID nodo_xml
+
+7 ENVIO DE ARCHIVO AL SERVICIO DE IMPUESTOS INTERNOS (SII)
+
+        String nombre_archivo = args[0];
+        String certificado = args[1];
+        String clave = args[2];
+        String rutemisor = args[3];
+        String rutenvia = args[4];
+
+java -cp SetSimulacion.jar setsimulacion.MainSII rcofSIGNED fbaquedano 1982 77454072-5 15261254-0
+
+
+
+
+

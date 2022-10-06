@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE version="1.0">
+ <Documento ID="DOC3">
+  <Encabezado>
+   <IdDoc>
+    <TipoDTE>39</TipoDTE>
+    <Folio>3</Folio>
+    <FchEmis>2022-09-13</FchEmis>
+    <IndServicio>3</IndServicio>
+   </IdDoc>
+<Emisor>
+<RUTEmisor>77499104-2</RUTEmisor>
+<RznSocEmisor>COMERCIAL KUKO?S SPA </RznSocEmisor>
+<GiroEmisor>PRODUCTOS DE BELLEZA</GiroEmisor>
+<CdgSIISucur>1</CdgSIISucur>
+<DirOrigen>MONJITAS 550 DP 19</DirOrigen>
+<CmnaOrigen>SANTIAGO</CmnaOrigen>
+<CiudadOrigen>SANTIAGO</CiudadOrigen>
+</Emisor>
+   <Receptor>
+    <RUTRecep>7485497-4</RUTRecep>
+    <RznSocRecep>OMAR GUENUL VELASQUEZ</RznSocRecep>
+   </Receptor>
+   <Totales>
+    <MntNeto>3445</MntNeto>
+     <IVA>655</IVA>
+    <MntTotal>4100</MntTotal>
+   </Totales>
+  </Encabezado>
+    <Detalle>
+   <NroLinDet>1</NroLinDet>
+   <CdgItem>
+    <TpoCodigo>INT</TpoCodigo>
+    <VlrCodigo>4</VlrCodigo>
+   </CdgItem>
+   <NmbItem>Sandwic</NmbItem>
+   <DscItem>Sandwic</DscItem>
+   <QtyItem>2</QtyItem>
+   <PrcItem>1500</PrcItem>
+   <MontoItem>3000</MontoItem>
+  </Detalle>
+  <Detalle>
+   <NroLinDet>2</NroLinDet>
+   <CdgItem>
+    <TpoCodigo>INT</TpoCodigo>
+    <VlrCodigo>5</VlrCodigo>
+   </CdgItem>
+   <NmbItem>Bebida</NmbItem>
+   <DscItem>Bebida</DscItem>
+   <QtyItem>2</QtyItem>
+   <PrcItem>550</PrcItem>
+   <MontoItem>1100</MontoItem>
+  </Detalle>
+ <Referencia>
+   <NroLinRef>1</NroLinRef>
+   <CodRef>SET</CodRef>
+   <RazonRef>CASO-3</RazonRef>
+  </Referencia>
+ </Documento>
+ </DTE>
