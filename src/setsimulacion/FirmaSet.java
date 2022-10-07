@@ -38,7 +38,7 @@ public class FirmaSet {
         
        for(int i=Integer.parseInt(rango_inicio); i<=Integer.parseInt(rango_final); i++){
        SignDTE  objSignDTE = new SignDTE();
-        objSignDTE.signDTE(objConfig.getPathdte(),nombre_dte+String.valueOf(i)+"TED",objConfig.getPathcert()+nombre_certificado, clave,"DOC"+String.valueOf(i), "Documento", "no", "no",nombre_dte);
+        objSignDTE.signDTE(objConfig.getPathdte(),nombre_dte+String.valueOf(i)+"TED",objConfig.getPathcert()+nombre_certificado, clave,"DOC"+String.valueOf(i), "Documento", "no", "no",nombre_dte+String.valueOf(i)+"TED");
       }
                
          
