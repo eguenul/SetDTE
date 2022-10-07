@@ -33,7 +33,7 @@ public class addDTEENVIO {
                    for(int i = Integer.parseInt(rango_inicio); i <= Integer.parseInt(rango_final); i++){ 
                     EnvioDTE objenvio = new EnvioDTE();
                     
-                    objenvio.generaEnvio(objConfig.getPathdte()+nombredte+String.valueOf(i)+"TEDSIGNED", archivo_destino);
+                    objenvio.generaEnvio(objConfig.getPathdte()+nombredte+String.valueOf(i)+"TED", archivo_destino);
                     
         
               }
