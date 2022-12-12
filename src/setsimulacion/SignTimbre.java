@@ -30,7 +30,9 @@ public class SignTimbre {
 	protected final static Logger LOGGER = Logger.getLogger(SignTimbre.class);
 	
 	public String signTimbre(String mensaje,String pathrsa) throws FileNotFoundException, IOException, NoSuchAlgorithmException, NoSuchProviderException, InvalidKeyException, SignatureException {
-		Security.addProvider(new BouncyCastleProvider());
+		System.out.print(pathrsa);
+                System.out.print(mensaje);
+                Security.addProvider(new BouncyCastleProvider());
 		LOGGER.info("BouncyCastle provider added.");
  
 		KeyFactory factory = KeyFactory.getInstance("RSA", "BC");

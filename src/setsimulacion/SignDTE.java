@@ -60,7 +60,8 @@ public class SignDTE {
                
         
         
-       
+        System.setProperty("com.sun.org.apache.xml.internal.security.ignoreLineBreaks","true");
+   
         
          /* CREO LOS ELEMENTOS DE FIRMA */     
             // Create a DOM XMLSignatureFactory that will be used to
@@ -146,6 +147,14 @@ trans.setOutputProperty(OutputKeys.OMIT_XML_DECLARATION, "yes");
 trans.setOutputProperty(OutputKeys.ENCODING, "ISO-8859-1");
 
 trans.setOutputProperty(OutputKeys.INDENT, parmindent);
+if("yes".equals(parmindent)){
+trans.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "0");
+    
+    
+}
+
+
+
 
 String xmlDecl = "<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?>"
                  + System.getProperty("line.separator");

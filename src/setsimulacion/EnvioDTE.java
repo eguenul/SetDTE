@@ -9,6 +9,9 @@ import java.io.IOException;
 
 import java.io.StringReader;
 import java.io.StringWriter;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import javax.xml.transform.OutputKeys;
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerConfigurationException;
@@ -36,8 +39,25 @@ public class EnvioDTE {
         
     Node setdte = doc.getElementsByTagName("SetDTE").item(0);
    
-       
+     Date date = new Date();
+     DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+           
+    String stringFecha = dateFormat.format(date);
+    DateFormat timeFormat = new SimpleDateFormat("HH:mm:ss");
+    String stringHora = timeFormat.format(date);
+           
+     Node tmstfirmaenv = doc.getElementsByTagName("TmstFirmaEnv").item(0);
+     tmstfirmaenv.setTextContent(stringFecha+"T"+stringHora);   
      
+    
+    
+    
+    
+    
+    
+    
+    
+    
     String archivo = nombredte+".xml";
     DocumentBuilderFactory docFactory2 = DocumentBuilderFactory.newInstance();
     DocumentBuilder docBuilder2 = docFactory2.newDocumentBuilder();
