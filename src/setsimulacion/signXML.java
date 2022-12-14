@@ -34,7 +34,7 @@ public class signXML {
             String nombre_certificado = args[1];
             String clave = args[2];
             String attr_id = args[3];
-            String nodo_xml = args[3];
+            String nodo_xml = args[4];
             
             
             objSignDTE.signDTE(objConfig.getPathdte(),nombre_archivo,objConfig.getPathcert()+nombre_certificado, clave,attr_id, nodo_xml, "no", "yes",nombre_archivo+"SIGNED");

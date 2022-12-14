@@ -42,12 +42,12 @@ public class SetSimulacion {
     Node folio = doc.getElementsByTagName("Folio").item(0);
     Element nododocumento = (Element) doc.getElementsByTagName("Documento").item(0);
    
-    for(int i = 64; i <= 82; i++){
+    for(int i = 56; i <= 56; i++){
         
    
     folio.setTextContent(String.valueOf(i));
     
-    nododocumento.setAttribute("ID", "DTE"+String.valueOf(i));
+    nododocumento.setAttribute("ID", "DOC"+String.valueOf(i));
     
     
     TransformerFactory transformerFactory = TransformerFactory.newInstance();
