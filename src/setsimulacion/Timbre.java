@@ -3,6 +3,7 @@ package setsimulacion;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -28,6 +29,7 @@ import java.util.Date;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.io.StringReader;
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
@@ -86,12 +88,12 @@ public class Timbre{
                      +"<F>"+doc.getElementsByTagName("Folio").item(0).getTextContent()+"</F>"
                      +"<FE>"+doc.getElementsByTagName("FchEmis").item(0).getTextContent()+"</FE>"
                      +"<RR>"+doc.getElementsByTagName("RUTRecep").item(0).getTextContent()+"</RR>"
-                     +"<RSR>"+doc.getElementsByTagName("RznSocRecep").item(0).getTextContent()+"</RSR>"
+                     +"<RSR>"+formatoTimbre(doc.getElementsByTagName("RznSocRecep").item(0).getTextContent())+"</RSR>"
                      +"<MNT>"+doc.getElementsByTagName("MntTotal").item(0).getTextContent()+"</MNT>"
                      +"<IT1>"+doc.getElementsByTagName("NmbItem").item(0).getTextContent()+"</IT1>"      
                      +"<CAF version=\"1.0\">"
                      +"<DA><RE>"+this.rutemisor+"</RE>"
-                     +"<RS>"+this.razonsocial+"</RS>" 
+                     +"<RS>"+formatoTimbre(this.razonsocial)+"</RS>" 
                      +"<TD>"+this.tipodocumento+"</TD>" 
                      +"<RNG>"+"<D>"+this.desde+"</D>"+"<H>"+this.hasta+"</H>"+"</RNG>"
                     +"<FA>"+this.fecha +"</FA>"
@@ -187,9 +189,17 @@ transformer.transform(source, result);
         
         String filepath2 = pathcaf +"F"+auxrutemisor+"T"+tipodocumento+".xml";
 	
+          FileInputStream archivocaf = new FileInputStream(filepath2);
+      InputStreamReader inputcaf = new InputStreamReader(archivocaf,"ISO-8859-1");
+      InputSource sourcecaf = new InputSource(inputcaf);      
+       
+
+        
+        
+        
         DocumentBuilderFactory docFactory2 = DocumentBuilderFactory.newInstance();
 	DocumentBuilder docBuilder2 = docFactory2.newDocumentBuilder();
-	Document doc2 = docBuilder2.parse(filepath2);
+	Document doc2 = docBuilder2.parse(sourcecaf);
    
         NodeList nl = doc2.getElementsByTagName("RE");
         Element el = (Element) nl.item(0);
@@ -273,7 +283,7 @@ transformer.transform(source, result);
         
 private String formatoTimbre(String cadena){
 
- cadena = cadena.replace("ó", "&#243;");
+ cadena = cadena.replace("&", "&amp;");
 
 return cadena;
 }
